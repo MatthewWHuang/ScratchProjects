@@ -62,7 +62,7 @@
         },
         "+Rx-ib9nk[eojK:@GeT!": {
           "opcode": "looks_say",
-          "next": null,
+          "next": "K9FUzmfb.1UO$$xZHk?!",
           "parent": "BRAM1)WuVs`Ur=7W?su5",
           "inputs": {
             "MESSAGE": [
@@ -70,6 +70,30 @@
               [
                 10,
                 "Hello!"
+              ]
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "K9FUzmfb.1UO$$xZHk?!": {
+          "opcode": "looks_thinkforsecs",
+          "next": null,
+          "parent": "+Rx-ib9nk[eojK:@GeT!",
+          "inputs": {
+            "MESSAGE": [
+              1,
+              [
+                10,
+                "Hmm..."
+              ]
+            ],
+            "SECS": [
+              1,
+              [
+                4,
+                "2"
               ]
             ]
           },
