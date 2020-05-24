@@ -96,31 +96,14 @@
                 },
                 "3DV%xz+VLEP%My4MY5lO": {
                     "opcode": "looks_say",
-                    "next": "ZZ4iRD6c?Dh)zu%Uu,g|",
+                    "next": null,
                     "parent": ";fh5Iq9MlD=kjka#SG-o",
                     "inputs": {
                         "MESSAGE": [
                             1,
                             [
                                 10,
-                                "Hello!"
-                            ]
-                        ]
-                    },
-                    "fields": {},
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "ZZ4iRD6c?Dh)zu%Uu,g|": {
-                    "opcode": "looks_say",
-                    "next": null,
-                    "parent": "3DV%xz+VLEP%My4MY5lO",
-                    "inputs": {
-                        "MESSAGE": [
-                            1,
-                            [
-                                10,
-                                "Hello!"
+                                "Hello world!!"
                             ]
                         ]
                     },
