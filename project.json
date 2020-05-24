@@ -48,7 +48,36 @@
       "variables": {},
       "lists": {},
       "broadcasts": {},
-      "blocks": {},
+      "blocks": {
+        "BRAM1)WuVs`Ur=7W?su5": {
+          "opcode": "event_whenflagclicked",
+          "next": "+Rx-ib9nk[eojK:@GeT!",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 376,
+          "y": 64
+        },
+        "+Rx-ib9nk[eojK:@GeT!": {
+          "opcode": "looks_say",
+          "next": null,
+          "parent": "BRAM1)WuVs`Ur=7W?su5",
+          "inputs": {
+            "MESSAGE": [
+              1,
+              [
+                10,
+                "Hello!"
+              ]
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
       "comments": {},
       "currentCostume": 0,
       "costumes": [
