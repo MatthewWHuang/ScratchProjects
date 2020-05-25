@@ -26,13 +26,13 @@
       ],
       "sounds": [
         {
-          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "assetId": "90e6a8c1fbd06b199b35a3d885f5c3b3",
           "name": "pop",
           "dataFormat": "wav",
           "format": "",
           "rate": 44100,
           "sampleCount": 1032,
-          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+          "md5ext": "90e6a8c1fbd06b199b35a3d885f5c3b3.wav"
         }
       ],
       "volume": 100,
@@ -103,7 +103,7 @@
         },
         "p7~3+PKO$;.B(0%FwR6Y": {
           "opcode": "motion_movesteps",
-          "next": null,
+          "next": "|g2w4f.=`Ir)uVB(n+L7",
           "parent": "K9FUzmfb.1UO$$xZHk?!",
           "inputs": {
             "STEPS": [
@@ -111,6 +111,23 @@
               [
                 4,
                 "10"
+              ]
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "|g2w4f.=`Ir)uVB(n+L7": {
+          "opcode": "motion_changeyby",
+          "next": null,
+          "parent": "p7~3+PKO$;.B(0%FwR6Y",
+          "inputs": {
+            "DY": [
+              1,
+              [
+                4,
+                "100"
               ]
             ]
           },
@@ -143,13 +160,13 @@
       ],
       "sounds": [
         {
-          "assetId": "83c36d806dc92327b9e7049a565c6bff",
+          "assetId": "541d12294c1f88f904033f4186383882",
           "name": "Meow",
           "dataFormat": "wav",
           "format": "",
           "rate": 44100,
-          "sampleCount": 37376,
-          "md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+          "sampleCount": 1,
+          "md5ext": "541d12294c1f88f904033f4186383882.wav"
         }
       ],
       "volume": 100,
