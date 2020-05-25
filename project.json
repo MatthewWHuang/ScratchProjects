@@ -79,7 +79,7 @@
         },
         "K9FUzmfb.1UO$$xZHk?!": {
           "opcode": "looks_thinkforsecs",
-          "next": null,
+          "next": "p7~3+PKO$;.B(0%FwR6Y",
           "parent": "+Rx-ib9nk[eojK:@GeT!",
           "inputs": {
             "MESSAGE": [
@@ -94,6 +94,23 @@
               [
                 4,
                 "2"
+              ]
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "p7~3+PKO$;.B(0%FwR6Y": {
+          "opcode": "motion_movesteps",
+          "next": null,
+          "parent": "K9FUzmfb.1UO$$xZHk?!",
+          "inputs": {
+            "STEPS": [
+              1,
+              [
+                4,
+                "10"
               ]
             ]
           },
