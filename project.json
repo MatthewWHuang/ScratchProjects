@@ -120,7 +120,7 @@
         },
         "|g2w4f.=`Ir)uVB(n+L7": {
           "opcode": "motion_changeyby",
-          "next": null,
+          "next": "3Znb7XK0Gcl6cdlsx3)1",
           "parent": "p7~3+PKO$;.B(0%FwR6Y",
           "inputs": {
             "DY": [
@@ -133,6 +133,48 @@
           },
           "fields": {},
           "shadow": false,
+          "topLevel": false
+        },
+        "3Znb7XK0Gcl6cdlsx3)1": {
+          "opcode": "control_forever",
+          "next": null,
+          "parent": "|g2w4f.=`Ir)uVB(n+L7",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              ":u-NJH9j~OTpf@#PVdC_"
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        ":u-NJH9j~OTpf@#PVdC_": {
+          "opcode": "motion_goto",
+          "next": null,
+          "parent": "3Znb7XK0Gcl6cdlsx3)1",
+          "inputs": {
+            "TO": [
+              1,
+              "7Z9QWU_,0e/xD!jG#b$]"
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "7Z9QWU_,0e/xD!jG#b$]": {
+          "opcode": "motion_goto_menu",
+          "next": null,
+          "parent": ":u-NJH9j~OTpf@#PVdC_",
+          "inputs": {},
+          "fields": {
+            "TO": [
+              "_mouse_",
+              null
+            ]
+          },
+          "shadow": true,
           "topLevel": false
         }
       },
