@@ -176,34 +176,6 @@
           },
           "shadow": true,
           "topLevel": false
-        },
-        "ik#4g?trwI+aT#Rs|s3;": {
-          "opcode": "event_whenflagclicked",
-          "next": "24+;J+7O}[2H5tn0GCB1",
-          "parent": null,
-          "inputs": {},
-          "fields": {},
-          "shadow": false,
-          "topLevel": true,
-          "x": 942,
-          "y": 301
-        },
-        "24+;J+7O}[2H5tn0GCB1": {
-          "opcode": "looks_say",
-          "next": null,
-          "parent": "ik#4g?trwI+aT#Rs|s3;",
-          "inputs": {
-            "MESSAGE": [
-              1,
-              [
-                10,
-                "Hello again!"
-              ]
-            ]
-          },
-          "fields": {},
-          "shadow": false,
-          "topLevel": false
         }
       },
       "comments": {},
