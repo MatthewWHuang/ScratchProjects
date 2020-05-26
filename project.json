@@ -120,7 +120,7 @@
         },
         "|g2w4f.=`Ir)uVB(n+L7": {
           "opcode": "motion_changeyby",
-          "next": "uEGXwQ{3;{LFN,6a=VQI",
+          "next": "3Znb7XK0Gcl6cdlsx3)1",
           "parent": "p7~3+PKO$;.B(0%FwR6Y",
           "inputs": {
             "DY": [
@@ -138,7 +138,7 @@
         "3Znb7XK0Gcl6cdlsx3)1": {
           "opcode": "control_forever",
           "next": null,
-          "parent": "uEGXwQ{3;{LFN,6a=VQI",
+          "parent": "|g2w4f.=`Ir)uVB(n+L7",
           "inputs": {
             "SUBSTACK": [
               2,
@@ -171,34 +171,6 @@
           "fields": {
             "TO": [
               "_mouse_",
-              null
-            ]
-          },
-          "shadow": true,
-          "topLevel": false
-        },
-        "uEGXwQ{3;{LFN,6a=VQI": {
-          "opcode": "sound_play",
-          "next": "3Znb7XK0Gcl6cdlsx3)1",
-          "parent": "|g2w4f.=`Ir)uVB(n+L7",
-          "inputs": {
-            "SOUND_MENU": [
-              1,
-              "d+GFu?*|BDaf2@RA{dTK"
-            ]
-          },
-          "fields": {},
-          "shadow": false,
-          "topLevel": false
-        },
-        "d+GFu?*|BDaf2@RA{dTK": {
-          "opcode": "sound_sounds_menu",
-          "next": null,
-          "parent": "uEGXwQ{3;{LFN,6a=VQI",
-          "inputs": {},
-          "fields": {
-            "SOUND_MENU": [
-              "Meow",
               null
             ]
           },
